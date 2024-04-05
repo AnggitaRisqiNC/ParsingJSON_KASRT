@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/itemPemanfaatan"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:padding="16dp"
+        android:paddingStart="20dp"
+        android:text="- Biaya Kebersihan Lingkungan : "
+        android:fontFamily="@font/quicksand"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemDanaPemanfaatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200.000,00"
+        android:fontFamily="@font/quicksand"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:padding="16dp"/>
+
+</LinearLayout>

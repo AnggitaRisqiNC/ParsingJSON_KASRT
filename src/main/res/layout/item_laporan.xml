@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/IuranPerwargaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand"
+        android:text="1. Iuran Perwarga : "
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/jumlahIuranBulananTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand"
+        android:text="2. Jumlah Iuran Bulanan : "
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/totalIuranRekapTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand"
+        android:text="3. Total Iuran (Rekap) : "
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/pengeluaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand"
+        android:text="4. Pengeluraan Iuran : "
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/pemanfaatanTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand"
+        android:text="5. Pemanfaatan Iuran : "
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+
+
+
+
+</LinearLayout>

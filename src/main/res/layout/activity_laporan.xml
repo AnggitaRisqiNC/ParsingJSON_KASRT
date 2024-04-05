@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    tools:context=".LaporanActivity">
+
+    <!-- TextView untuk judul -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAPORAN KAS RT"
+        android:fontFamily="@font/quicksand"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@color/green"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- TextView untuk Jumlah Iuran Bulanan -->
+    <TextView
+        android:id="@+id/jumlahIuranBulananTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1. Jumlah Iuran Bulanan : "
+        android:fontFamily="@font/quicksand"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:gravity="start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <!-- RecyclerView untuk menampilkan daftar -->
+
+    <!-- TextView untuk Pemanfaatan -->
+    <TextView
+        android:id="@+id/pemanfaatanTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2. Pemanfaatan : "
+        android:fontFamily="@font/quicksand"
+        android:textSize="16sp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:gravity="start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/jumlahIuranBulananTextView"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+
+    <!-- TextView untuk Pengeluaran -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_laporan"
+        android:layout_width="404dp"
+        android:layout_height="60dp"
+        android:background="@color/peach"
+        android:fontFamily="@font/quicksand"
+        android:padding="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pemanfaatanTextView"
+        tools:listitem="@layout/item_pemanfaatan" />
+
+    <TextView
+        android:id="@+id/pengeluaranTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="3. Total Pengeluraan : "
+        android:fontFamily="@font/quicksand"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_laporan"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <!-- TextView untuk Total Iuran -->
+    <TextView
+        android:id="@+id/totalIuranTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="4. Rekap Total Iuran : "
+        android:fontFamily="@font/quicksand"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pengeluaranTextView"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
