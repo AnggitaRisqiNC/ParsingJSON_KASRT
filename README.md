@@ -2,11 +2,11 @@
 
 ### Anggota Kelompok <br>
 
-| Nama                      | NIM       | Kelas     | Mata Kuliah     |
-| ------------------------- | --------- | --------- | --------------- |
-| Anggita Risqi Nur Clarita | 312210450 | TI.22.A.1 | Pemrograman Mobile |
-| Faizah Via Fadhillah      | 312210460 | TI.22.A.1 | Pemrograman Mobile |
-| Zahra Nurhaliza           | 312210364 | TI.22.A.1 | Pemrograman Mobile |
+| Nama                      | NIM       | Kelas     | Mata Kuliah          |
+| ------------------------- | --------- | --------- | -------------------- |
+| Anggita Risqi Nur Clarita | 312210450 | TI.22.A.1 | Pemrograman Mobile 2 |
+| Faizah Via Fadhillah      | 312210460 | TI.22.A.1 | Pemrograman Mobile 2 |
+| Zahra Nurhaliza           | 312210364 | TI.22.A.1 | Pemrograman Mobile 2 |
 
 
 **Deskripsi:**
@@ -79,8 +79,8 @@ dependencies {
 
 **Link:**
 
-* Youtube: [https://youtu.be/]()
-* Laporan PDF: [https://drive.google.com/]()
+* Youtube: [https://youtu.be/](https://youtu.be/61YldLe2ZFo)
+* Laporan PDF: [https://drive.google.com/](https://drive.google.com/file/d/1uZyfI8NnE4GRZ-pMU7uHtjWuHqdcXszu/view?usp=sharing)
 
 **Referensi:**
 
